@@ -34,6 +34,8 @@ Test Results and screenshots are also kept here.
 
 Folders inside:
 #### Features
+* API Features/ReqRes.feature is API tes case
+* Web Features/NabCallBackProcess.feature is for Web bases UI Test
 #### Hooks
 #### Steps
 #### TestResults
@@ -46,8 +48,6 @@ Files:
 ### 3. WebLibrary:
 
 This folder contains the pageojbect class and file for the tests which helps to organize all page elements.
-
-
 
 ## Packages used:
 
@@ -81,5 +81,6 @@ dotnet test TestProject --filter @ui  (for ui test)
 ## Logs and Test Reports
 
 Reporting can be found in the below location and same has been attached 
-Reports Location: ~..SpecFlow_Web-Api\SeleniumSpecFlow\TestResults\Report
+Reports Location: ~..SpecFlow_Web-Api\SeleniumSpecFlow\TestResults\Report\index.html. It is a pretty good Reports which can provide dashboard and analysis for test exectuion status.
+Failed Cases Screenshot:  .SpecFlow_Web-Api\SeleniumSpecFlow\TestResults\Img
 
