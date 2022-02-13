@@ -1,8 +1,8 @@
-# UI and API AUTOMATION USING BDD FRAMEWORK
+# UI  AUTOMATION USING BDD FRAMEWORK
 
 Contents:
 
-1. Purpose of UI and API Automation Framework.
+1. Purpose of UI  Automation Framework.
 2. Overview
 3. Framework structure
 4. Packages used
@@ -76,7 +76,6 @@ where TestProject is the name of the project. You can skip the project name if y
 To run only specific tests you can use the --filter flag:
 
 dotnet test TestProject --filter @api  (for api test)
-dotnet test TestProject --filter @ui  (for ui test)
 
 ## Logs and Test Reports
 
